@@ -11,7 +11,7 @@ Konfigurasi lingkungan terminal modern yang portabel dan konsisten untuk worksta
   - **Status Left**: Hostname mesin (`󰒋`), direktori aktif saat ini (``), dan durasi uptime sistem tanpa menit (`󰔟`).
   - **Status Right (Resource Monitor)**: Penggunaan CPU % + level bar (``), Memory digunakan/total + level bar (`󰍛`), dan Disk Storage digunakan/total + level bar (`󰋊`).
   - **Background Caching**: Pengambilan resource berjalan di background sehingga status bar tidak pernah lag/freeze.
-  - **Nested Remote SSH Ready**: Prefix `Ctrl + a` (tekan `Ctrl+a` lalu `a` untuk mengirim prefix ke tmux di remote server).
+  - **Prefix Key**: Default `Ctrl + b` (tekan `Ctrl+b` lalu `b` untuk mengirim prefix ke tmux nested).
   - **TPM & Plugins**: Dilengkapi `tmux-yank`, `tmux-resurrect`, `tmux-continuum`, dan `catppuccin/tmux#v2.1.2`.
 - **Starship Prompt:**
   - Tema elegan **Catppuccin Macchiato**.
